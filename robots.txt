@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /obrigado.html
+
+Sitemap: https://DOMINIO-A-DEFINIR.com.br/sitemap.xml
