@@ -29,8 +29,8 @@ Landing page de conversão no padrão QH4 Growth. Cliente do Método Stones Low 
 
 ## O que já está configurado
 
-- WhatsApp dos leads: **(84) 98829-2372** em todos os CTAs, com mensagem diferente por origem
-- Formulário sem Apps Script: monta a mensagem com todos os campos, abre `obrigado.html` e redireciona para o WhatsApp em 2,5 s
+- WhatsApp dos leads: **(84) 98829-2372** em todos os CTAs, sempre com a mensagem "Olá. Vim pelo Google e gostaria de mais informações." (a origem do clique vai no evento `clique_whatsapp`)
+- Formulário sem Apps Script: monta a mensagem com a mesma frase de abertura e todos os campos, abre `obrigado.html` e redireciona para o WhatsApp em 2,5 s
 - Botão de envio nasce desabilitado e libera quando os campos obrigatórios estão válidos
 - Botão flutuante de WhatsApp fixo à direita
 - Rodapé com "Desenvolvido pro QH4 Growth" e link para @qh4growth
@@ -53,6 +53,15 @@ Landing page de conversão no padrão QH4 Growth. Cliente do Método Stones Low 
 - **Segundo telefone:** (84) 99112-5718 veio da logo e aparece como telefone. Confirmar se é WhatsApp também
 - **Avaliações:** o link do Google enviado está no botão "Ler avaliações no Google". Nenhum depoimento foi escrito na página, porque não havia texto de avaliação no briefing
 - **Nomes de materiais:** "Branco Extra", "Preto São Gabriel polido" e as descrições de mármore, granito e quartzo vieram dos textos dos próprios posts do cliente
+
+## Ajustes da revisão interna (09/10/2026, Guilherme Gomes)
+
+- Mensagem automática de todos os links de WhatsApp trocada para "Olá. Vim pelo Google e gostaria de mais informações."
+- CTA do topo: "Entrar em contato"
+- Headline: "Marmoraria de qualidade perto de você, com acabamento de alto padrão"
+- Subheadline: "Banheiros, cozinhas, bancadas e etc. Transformamos seu ambiente com os melhores Mármores, granitos e Quartzitos!"
+- Aba Granito: foto trocada pela imagem do post com a caixa de texto removida e enquadramento na bancada
+- Atenção: a subheadline cita quartzitos, mas o briefing do cliente lista mármores, quartzos e granitos. O resto da página continua falando em quartzo. Confirmar com o cliente se trabalha com quartzito
 
 ## Fonte do conteúdo
 
@@ -82,7 +91,7 @@ lp-wilson-marmores/
 ## Seções da página
 
 1. Topo fixo com menu e CTA
-2. Hero com headline "Marmoraria em Natal perto de você, com acabamento de alto padrão"
+2. Hero com headline "Marmoraria de qualidade perto de você, com acabamento de alto padrão"
 3. Bancadas de cozinha e de banheiro
 4. Outras peças (cubas esculpidas, peitoris, soleiras, divibox, divisórias, túmulos, tábuas de carne)
 5. Materiais em abas (mármore, granito, quartzo)

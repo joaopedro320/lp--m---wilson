@@ -316,7 +316,7 @@
         msg = 'Olá, acabei de preencher o formulário no site. Aguardo mais informações.';
       } else {
         // Sem planilha: a mensagem leva todos os campos preenchidos
-        msg = 'Olá, vim pelo site e quero um orçamento.\n\n' +
+        msg = 'Olá. Vim pelo Google e gostaria de mais informações.\n\n' +
           '*Nome:* ' + d.nome + '\n' +
           '*WhatsApp:* ' + d.whatsapp + '\n' +
           '*Cidade e bairro:* ' + d.cidade + '\n' +
