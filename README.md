@@ -59,7 +59,7 @@ Landing page de conversão no padrão QH4 Growth. Cliente do Método Stones Low 
 - Mensagem automática de todos os links de WhatsApp trocada para "Olá. Vim pelo Google e gostaria de mais informações."
 - CTA do topo: "Entrar em contato"
 - Headline: "Marmoraria de qualidade perto de você, com acabamento de alto padrão"
-- Subheadline: "Banheiros, cozinhas, bancadas e etc. Transformamos seu ambiente com os melhores Mármores, granitos e Quartzitos!"
+- Subheadline: "Banheiros, cozinhas e bancadas. Transformamos seu ambiente com os melhores Mármores, granitos e Quartzitos!"
 - Aba Granito: foto trocada pela imagem do post com a caixa de texto removida e enquadramento na bancada
 - Atenção: a subheadline cita quartzitos, mas o briefing do cliente lista mármores, quartzos e granitos. O resto da página continua falando em quartzo. Confirmar com o cliente se trabalha com quartzito
 
