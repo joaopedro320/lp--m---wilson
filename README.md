@@ -41,7 +41,7 @@ Landing page de conversão no padrão QH4 Growth. Cliente do Método Stones Low 
 ## O que trocar antes de subir
 
 1. **Domínio:** buscar `DOMINIO-A-DEFINIR.com.br` e trocar pelo domínio real em `index.html` (canonical, og:url, og:image, twitter:image e os dois JSON-LD), `robots.txt` e `sitemap.xml`
-2. **GTM:** em `assets/js/main.js`, trocar `GTM-XXXXXXX` na constante `GTM_ID`. Enquanto for o placeholder, o GTM não é carregado
+2. **GTM:** container `GTM-KD4L4KHN` instalado direto no `<head>` e logo após o `<body>` de `index.html`, `obrigado.html` e `404.html`
 3. **Apps Script (opcional):** se for usar planilha de leads, colar a URL do Web App em `APPS_SCRIPT_URL` no mesmo arquivo. Com a URL preenchida, os dados vão para a planilha e o WhatsApp recebe a mensagem padrão "Olá, acabei de preencher o formulário no site. Aguardo mais informações."
 
 ## Pendências de briefing (confirmar com o cliente)
@@ -140,4 +140,4 @@ Conversão principal sugerida: pageview de `/obrigado.html` ou o evento `lead_ob
 - [x] Formulário com botão desabilitado até validar
 - [x] Testado no Chromium em 320, 360, 390, 414, 600, 768, 900, 1024, 1280, 1440 e 1920 px, sem rolagem horizontal e sem erro de console
 - [ ] Trocar o domínio placeholder
-- [ ] Inserir o ID do GTM
+- [x] Inserir o ID do GTM (GTM-KD4L4KHN)
