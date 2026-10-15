@@ -3,7 +3,6 @@
   'use strict';
 
   /* ===== Configuração: troque aqui antes de publicar ===== */
-  var GTM_ID = 'GTM-XXXXXXX';           // ID do container do Google Tag Manager
   var WHATSAPP = '5584988292372';       // número que recebe os leads (briefing)
   var APPS_SCRIPT_URL = '';             // opcional: URL do Web App do Google Apps Script (planilha de leads)
   /* ======================================================== */
@@ -14,15 +13,6 @@
     var e = { event: nome };
     for (var k in dados || {}) e[k] = dados[k];
     window.dataLayer.push(e);
-  }
-
-  // GTM só carrega quando o ID real for informado
-  if (/^GTM-[A-Z0-9]+$/.test(GTM_ID) && GTM_ID !== 'GTM-XXXXXXX') {
-    window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
-    var g = document.createElement('script');
-    g.async = true;
-    g.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
-    document.head.appendChild(g);
   }
 
   var doc = document;
